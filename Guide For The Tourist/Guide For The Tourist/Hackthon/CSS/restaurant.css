@@ -1,0 +1,116 @@
+.head{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Paytone One';
+    margin-top:60px;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+    box-shadow: rgb(49, 91, 136) 0px 20px 30px -10px;
+
+    box-sizing: border-box;
+    margin: 0;
+    block-size: 100%;
+    background: hsl(200 50% 50%);
+    color: hsl(200 50% 90%);
+    font-size: 2.5rem;
+    color: white;
+    min-block-size: 100%;
+    font-family: 'Fugaz One', cursive;
+
+    display: grid;
+    place-content: center;
+    padding: 5vmin;
+}
+
+
+body{
+    border: 20px rgb(131, 136, 131);
+    /* position:absolute; */
+    /* background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #4e93a6, #c059b6);    border: 20px solid rgb(242, 255, 0); */
+    background-color: #12ADC1;
+    background-image: linear-gradient(160deg, #191b50 9%, #1b0807 50%);
+    border-radius: 93px;
+    box-shadow: 0px 0px 30px 30px rgba(48, 56, 58, 0.5);
+}
+
+
+
+.container{
+    margin: auto;
+    margin-top: 100px;
+    /* margin-left:440px; */
+    width: 800px;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color:#1C2A44;
+    padding:2%;
+    border-radius: 25px;
+    box-shadow: rgb(21, 139, 175) 0px 54px 55px, rgba(166, 2, 255, 0.95) 0px -12px 30px, rgb(9, 255, 157) 0px 4px 6px, rgba(49, 238, 7, 0.972) 0px 12px 13px, rgb(228, 252, 8) 0px -3px 5px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 20px; */
+}
+
+.container img{
+    margin-top:20px;
+    /* margin: auto; */
+    margin-left: 11%;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 0px 15px black;
+    /* margin-right: 50px; */
+    border-radius: 20px;
+    /* margin-left:00px; */
+    /* margin-left: -100px; */
+}
+
+.container img:hover{
+    box-shadow: rgb(223, 6, 235) 0px 54px 55px, rgb(48, 255, 2) 0px -12px 30px, rgb(9, 255, 157) 0px 4px 6px, rgba(49, 238, 7, 0.972) 0px 12px 13px, rgb(252, 8, 8) 0px -3px 5px;
+}
+
+.container .know_about_places_head{
+    font-size: 30px;
+    margin-top:30px;
+    margin-left:10px;
+}
+
+
+.know_about_places_head p{
+    font-size:24px;
+}
+
+/* .last_tourist_img{
+    margin-right: 30px;
+} */
+
+.p{
+    margin-left: 30px;
+    color:#1C2A44;
+}
+
+
+.know_about_places_head{
+    color:whitesmoke;
+}
+
+.know_about_places_head{
+    text-align: center;
+    margin-top: -50px;
+    margin-right: 45px;
+    /* box-shadow: rgba(10, 125, 239, 0.918) 0px 8px 24px; */
+    font-size: 50px;
+    font-family: "Bodoni MT Black";
+}
+
+#diet{
+    color: rgb(12, 250, 12);
+}
+
+.desc{
+    font-size: 20px;
+    font-family: "Bodoni MT Black";
+    color: whitesmoke;
+}
